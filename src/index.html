@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comments section</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="comments">
+        <form class="form" name="comment" id="form">
+          <div class="form__row">
+            <input
+              class="form__name"
+              type="text"
+              name="name"
+              placeholder="Введите имя"
+            />
+            <input class="form__date" type="date" name="date" />
+          </div>
+          <textarea
+            class="form__text"
+            name="text"
+            rows="6"
+            id=""
+            placeholder="Напишите комментарий"
+          ></textarea>
+          <input
+            class="form__submit"
+            type="submit"
+            name="submitBtn"
+            value="комментировать"
+          />
+        </form>
+        <div class="comments__inner"></div>
+      </div>
+    </div>
+  </body>
+</html>
